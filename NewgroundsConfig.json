@@ -1,11 +1,11 @@
 {
 	"name": "Newgrounds",
 	"description": "One of the most well known online communities",
-	"author": "Lofiat",
+	"author": "Blazeape595692",
 	"authorUrl": "https://www.github.com/Loafiat",
 	
-	"sourceUrl": "https://github.com/Loafiat/NewgroundsPlugin/",
-	"repositoryUrl": "https://github.com/Loafiat/NewgroundsPlugin/NewgroundsConfig.json",
+	"sourceUrl": "https://github.com/Blazeape595692/NewgroundsPlugin/NewgroundsConfig.json",
+	"repositoryUrl": "https://github.com/Blazeape595692/NewgroundsPlugin",
 	"scriptUrl": "./NewgroundsScript.js",
 	"version": 9,
 	
