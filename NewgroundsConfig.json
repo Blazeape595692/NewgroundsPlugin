@@ -4,7 +4,7 @@
 	"author": "Blazeape595692",
 	"authorUrl": "https://www.github.com/Blazeape595692",
 	
-	"sourceUrl": "https://github.com/Blazeape595692/NewgroundsPlugin/NewgroundsConfig.json",
+	"sourceUrl": "https://raw.githubusercontent.com/Blazeape595692/NewgroundsPlugin/refs/heads/main/NewgroundsConfig.json",
 	"repositoryUrl": "https://github.com/Blazeape595692/NewgroundsPlugin",
 	"scriptUrl": "./NewgroundsScript.js",
 	"version": 9,
