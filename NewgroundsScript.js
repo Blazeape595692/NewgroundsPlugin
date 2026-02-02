@@ -10,9 +10,8 @@ const URL_FEATURED_MOVIES = "https://www.newgrounds.com/movies/featured?offset={
 var config = {};
 
 //Source Methods
-source.enable = function(conf, settings, savedState){
-	config = conf ?? {};
-	throw new ScriptException("This is a sample");
+source.enable = function(_confing, settings, savedState){
+	local_settings = settings
 }
 source.getHome = function() {
 	return new NGFeaturedMoviePager(1);
