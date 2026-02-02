@@ -7,6 +7,9 @@ const URL_CREATOR_MOVIES = "https://{0}.newgrounds.com/movies";
 const URL_MOVIE_FILE = "https://www.newgrounds.com/portal/video/{0}";
 const URL_FEATURED_MOVIES = "https://www.newgrounds.com/movies/featured?offset={0}&inner=1";
 
+import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
+const domDOMParser = new DOMParser();
+
 var config = {};
 
 let token
