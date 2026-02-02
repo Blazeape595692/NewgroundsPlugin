@@ -9,6 +9,9 @@ const URL_FEATURED_MOVIES = "https://www.newgrounds.com/movies/featured?offset={
 
 var config = {};
 
+let token
+let local_settings
+
 //Source Methods
 source.enable = function(_confing, settings, savedState){
 	local_settings = settings
@@ -18,7 +21,7 @@ source.getHome = function() {
 };
 
 source.searchSuggestions = function(query) {
-	throw new ScriptException("This is a sample");
+	return [];
 };
 
 source.getSearchCapabilities = () => {
