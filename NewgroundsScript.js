@@ -5,7 +5,7 @@ const URL_CREATOR_SEARCH = "https://www.newgrounds.com/search/conduct/users?term
 const URL_CREATOR_PROFILE = "https://{0}.newgrounds.com";
 const URL_CREATOR_MOVIES = "https://{0}.newgrounds.com/movies";
 const URL_MOVIE_FILE = "https://www.newgrounds.com/portal/video/{0}";
-const URL_FEATURED_MOVIES = "https://www.newgrounds.com/movies/featured?offset={0}&inner=1";
+const URL_FEATURED_MOVIES = "https://www.newgrounds.com/movies"//"https://www.newgrounds.com/movies/featured?offset={0}&inner=1";
 
 source.enable = function (conf) {
     /**
