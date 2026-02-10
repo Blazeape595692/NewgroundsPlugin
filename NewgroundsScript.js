@@ -18,7 +18,9 @@ source.getHome = function(continuationToken) {
      * @param continuationToken: any?
      * @returns: VideoPager
      */
-    const videos = []; // The results (PlatformVideo)
+		const resp = http.GET(URL_FEATURED_MOVIES, {});
+		const contentData = JSON.parse(resp.body).data["en"];
+    const videos = contentData.categories["portalsubmission-cards"]; // The results (PlatformVideo)
     const hasMore = false; // Are there more pages?
     const context = { continuationToken: continuationToken }; // Relevant data for the next page
     return new NewgroundsHomeVideoPager(videos, hasMore, context);
